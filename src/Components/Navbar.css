@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300;400;700&family=Ubuntu:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+.brandName,
+.listItem {
+  color: black;
+  text-decoration: none;
+}
+.brandLogo {
+  float: left;
+}
+.navbar {
+  display: flex;
+  /* background-color: #f5f5f5; */
+}
+.list {
+  position: relative;
+  right: 3%;
+}
+.brandName {
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  margin-left: 5px;
+  color: #fc801a;
+}
+.brandName:hover {
+  transition: ease-out 0.3s;
+}
+.listItem {
+  font-size: 20px;
+  margin: auto 15px;
+  align-items: baseline;
+  transition: ease-in 0.3s;
+}
+.signup_nav:hover {
+  color: #ff2171;
+  transform: scale(1.1);
+  transition: ease-out 0.3s;
+}
+
+.listItem:hover {
+  color: #000;
+  transition: ease-out 0.3s;
+}
+
+.signup_nav {
+  padding: 8px 15px;
+  background-color: #fc801a;
+  color: white;
+  border-radius: 15px;
+}
